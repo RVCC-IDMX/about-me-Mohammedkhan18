@@ -1,0 +1,32 @@
+body {
+    font-family: Roboto;
+    background-color: #EBBD26;
+    color: #0E219E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cinzel Decorative";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #0E219E;
+    font-size: 120&;
+    border: 2px solid #0E219E;
+    background-color: #9E7900;
+    text-align: center;
+    padding: 30px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+    font-size: 120%;
+}
