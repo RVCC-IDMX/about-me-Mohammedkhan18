@@ -7,11 +7,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Cinzel Decorative";
     text-align: center;
-}
-
-h1 {
     font-size: 40pt;
 }
+
 
 header {
     text-align: center;
@@ -65,6 +63,7 @@ li {
 
 #gallery {
     border: 3.5px solid #0E219E;
+    margin-bottom: 2rem ;
 }
 
 #gallery img {
@@ -84,4 +83,41 @@ li {
     padding-left: 50%;
     text-align: center;
     font-size: 20px;
+}
+
+/* Literature */
+
+#lit {
+    border: 3.5px solid #0E219E;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/* Dropcaps */
+
+#lit div p:nth-child(3n+1):first-letter {
+    color: orange;
+    background-image:radial-gradient(white, #0E219E);
+    float: left;
+    font-size: 3em;
+    padding: .25em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 3.5px dotted orange ;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    font-family: "Cinzel Decorative";
+    border-radius: .4em;
 }
