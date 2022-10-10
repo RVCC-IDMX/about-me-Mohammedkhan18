@@ -6,6 +6,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Cinzel Decorative";
+    text-align: center;
+}
+
+h1 {
     font-size: 40pt;
 }
 
@@ -14,8 +18,8 @@ header {
 }
 
 #hero, footer {
-    color: #0E219E;
-    font-size: 120&;
+    color: #EBBD26;
+    font-size: 120%;
     border: 2px solid #0E219E;
     background-color: #9E7900;
     text-align: center;
@@ -29,4 +33,24 @@ header {
 #bio {
     text-align: center;
     font-size: 120%;
+}
+
+ul{
+list-style: circle;
+}
+
+li:nth-child(even) {
+    padding-left: 15px;
+    background-color: darkorange;
+    border: 2px solid;
+    border-color: orange;
+}
+li:nth-child(odd) {
+    padding-left: 15px;
+    background-color: gold;
+    border: 2px solid;
+    border-color: darkorange;
+}
+li {
+    font-size: 110%;
 }
