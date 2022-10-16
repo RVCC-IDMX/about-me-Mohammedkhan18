@@ -64,9 +64,9 @@ li:nth-child(even) {
 li:nth-child(odd) {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: gold;
+    background-color: #EBBD26;
     border: 2px solid;
-    border-color: darkorange;
+    border-color: orange;
 }
 li {
     font-size: 110%;
