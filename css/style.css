@@ -57,16 +57,14 @@ list-style: circle;
 li:nth-child(even) {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: darkorange;
-    border: 2px solid;
-    border-color: orange;
+    border: 2px dashed;
+    border-color: #9E7900;
 }
 li:nth-child(odd) {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #EBBD26;
-    border: 2px solid;
-    border-color: orange;
+    border: 2px dashed;
+    border-color: #9E7900;
 }
 li {
     font-size: 110%;
