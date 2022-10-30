@@ -137,15 +137,36 @@ li {
     font-family: "Cinzel Decorative";
     border-radius: .4em;
 }
+/* video section */
+
+#video {
+    border: 3.5px solid #0E219E;
+    margin-bottom: 2rem ;
+}
+
+#video figure {
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+#video figcaption {
+    padding-right: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
 
  /* tablet size */
 @media screen and  (min-width: 60em) {
-figure {
+ figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
- figcaption {
+  figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +183,11 @@ figure {
 #lit div {
     max-width: 100%;
     columns: 20rem;
+}
+
+iframe {
+    width: 750px;
+    height: 500px;
 }
 
 }
@@ -186,4 +212,16 @@ figure {
     figure {
         display: block;
     }
+
+    #video {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #video h2 {
+        grid-column: 1/-1;
+        padding-top: 20%;
+    }
+
 }
+
