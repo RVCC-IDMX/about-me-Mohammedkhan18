@@ -58,7 +58,7 @@ li:nth-child(even) {
     padding-left: 15px;
     padding-right: 15px;
     border: 2px dashed;
-    border-color: #9E7900;
+    border-color: sky;
 }
 li:nth-child(odd) {
     padding-left: 15px;
@@ -158,6 +158,59 @@ li {
     font-size: 20px;
 }
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 3.5px dotted #0E219E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    
+}
+
+legend {
+    background-color: #0E219E;
+    color: lightblue;
+    padding: .5em;
+    border: 3px dotted skyblue;
+    box-shadow:  5px 5px 5px rgba(0,0,0,.5);;
+
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #0E219E;
+    color: lightblue;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);;
+}
+
 
  /* tablet size */
 @media screen and  (min-width: 60em) {
@@ -224,9 +277,5 @@ iframe {
 
 }
 
-/* Contact Form */
 
-#formElements {
-    display: grid;
-}
 
