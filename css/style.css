@@ -224,3 +224,9 @@ iframe {
 
 }
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}
+
