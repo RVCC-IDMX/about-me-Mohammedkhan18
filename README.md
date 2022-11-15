@@ -18,7 +18,7 @@ The purpose of this project was to implement  the concepts that we learned in cl
 
 While doing this project, I learned many skills which you can read right below:
 
-### Navbar Section
+#### Navbar Section
 
 While working on the navbar section, I learned how to create a practical and  active navbar in which my user will be able to instantly get to any section on the webpage. Additionally, I learned how to 
 
