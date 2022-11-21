@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: #EBBD26;
     color: #0E219E;
 }
@@ -18,7 +18,16 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
     margin: .1em;
+    font-size: 30pt;
+    text-align: left;
 }
+
+h3 {
+    font-size: 26.4px;
+    text-align: left;
+}
+
+
 
 
 header {
@@ -44,8 +53,54 @@ header {
 /* Bio Section */
 
 #bio {
-    text-align: center;
     font-size: 120%;
+    max-width: 30rem;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 105px 0px 10px;
+    background: rgba(0,0,0,0.52);
+    color: white;
+}
+
+#bio h2 {
+    padding-left: 50px;
+}
+
+  
+.iama {
+    max-width: 100%;
+    font-size: 90%;
+    font-family: 'Cinzel Decorative';
+    font-weight: 700;
+    text-align: center;
+    padding-right: 30px;
+}
+p {
+    font-weight: 'Roboto';
+    font-size: 16px;
+    padding-left: 50px;
+    margin-top: 5%;
+}
+ .bio  {
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    max-width: 300%;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 20px;
+ }
+
+.my-info {
+    max-width: 100%;
+    font-size: 90%;
+    line-height: 150%;
+    margin: 0px auto 3em;
+    font-family: 'Roboto';
+    text-align: center;
+    padding-right: 30px;
+   
 }
 
 /* Hobbies Section */
@@ -57,24 +112,29 @@ list-style: circle;
 li:nth-child(even) {
     padding-left: 15px;
     padding-right: 15px;
-    border: 2px dashed;
-    border-color: sky;
 }
 li:nth-child(odd) {
     padding-left: 15px;
     padding-right: 15px;
-    border: 2px dashed;
-    border-color: #9E7900;
 }
 li {
-    font-size: 110%;
+    font-size: 1.30rem;
+    color: #EBBD26;
 }
 
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #9E7900;
+    border: 2px solid #0E219E;
 }
+
+#hobbies p {
+    font-size: 1.30rem;
+    color: #EBBD26;
+}
+
 
 
 
@@ -82,7 +142,8 @@ li {
 
 #gallery {
     border: 3.5px solid #0E219E;
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
+    margin-top: 65px;
 }
 
 #gallery img {
@@ -166,10 +227,12 @@ li {
 }
 
 #contact {
-    padding: 1rem;
-    max-width: 600px;
+    padding: 2rem;
+    max-width: 650px;
     margin: 2rem auto;
 }
+
+
 
 fieldset {
     border: 3.5px dotted #0E219E;
@@ -200,6 +263,9 @@ legend {
 
 #contact li {
     margin: 1rem;
+    color: #0E219E;
+    font-size: 1rem;
+    border: none;
 }
 
 #contact button {
@@ -208,9 +274,36 @@ legend {
     max-width: 400px;
     width: 50%;
     justify-self: center;
-    box-shadow: 5px 5px 5px rgba(0,0,0,.5);;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 }
 
+/* iPhone size */ 
+@media screen and (min-width: 23.438em) {
+    #video iframe {
+        width: 100%;
+    }
+
+    #video figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    margin-left: 1rem;
+    }
+    #bio {
+        margin: 50px 0px 0px;
+        padding: 0px 24px;
+
+    }
+    #bio h2 {
+        margin-right: -50px;
+        font-size: 34px;
+    }
+
+}
 
  /* tablet size */
 @media screen and  (min-width: 60em) {
@@ -274,6 +367,17 @@ iframe {
     #video h2 {
         grid-column: 1/-1;
     }
+
+    #video figcaption {
+        padding-left: 19em;
+        padding-bottom: 15%;
+        width: 100%;
+    }
+
+    #video iframe {
+        width: 150%;
+    }
+
 
 }
 
