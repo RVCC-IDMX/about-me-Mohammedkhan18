@@ -28,19 +28,26 @@ When I was working on the profile section, I learned how to insert an avatar/ima
 
 #### Bio Section 
 
-While I was working on the bio section, I refined the skills I learned from the profile section. 
+While I was working on the bio section, I refined the skills I learned from the profile section. I also learned how to add a background image using only css. I made the bio section transparent, so the image could be seen. 
 
 #### Hobbies Section 
 
 While I was working on the hobbies section, I learned how to create an unordered list. 
 
+#### Gallery Section
+
+While I was working on the gallery section, I learned how to add images and how to use a figure to provide captions to my images. I was able to change how the multiple figures looked on the webpage. For example, while the screen size is a laptop or a desktop, the 3 figures will be in a row with the captions on the bottom. For the iPhone size, the 3 figures will be in a column with the captions on the bottom. 
+
+#### Lit Section 
+
+
+
+
 #### Video Section
 
 When I was working on the video section, I learned how to create iframes and all of the different properties I could use in my webpage. I was able to stretch my knowledge of css to create a responsive iframe. 
 
-#### Gallery Section
 
-While I was working on the gallery section, I learned how to add images and how to use a figure to provide captions to my images. I was able to change how the multiple figures looked on the webpage. For example, while the screen size is a laptop or a desktop, the 3 figures will be in a column with the captions on the side. For the iPhone size 
 
 
 
