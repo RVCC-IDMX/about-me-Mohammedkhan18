@@ -39,7 +39,7 @@ header {
 #hero, footer {
     color: #EBBD26;
     font-size: 120%;
-    border: 0px ridge #0E219E;
+    border: 3.5px ridge #0E219E;
     background-color: #9E7900;
     text-align: center;
     padding: 30px;
