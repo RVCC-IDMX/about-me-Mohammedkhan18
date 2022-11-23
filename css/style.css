@@ -67,20 +67,19 @@ header {
 .bio {
     font-size: 120%;
     width: 100%;
-    margin-left: 300px;
+    margin-left: 0px;
     margin-top: 0px;
     color: white;
-    background-image: url(../IMG/background.jpg);
+    background-image: url(../IMG/scenery.jpg);
     background-repeat: no-repeat;
 }
 
 
 .left-column {
    width: 20%;
-   background-color: #9E7900;
    background-color: rgba(0,0,0,.5);
    padding: 20px;
-   margin-left: 100px;
+   margin-left:100px;
    margin-bottom: 20px;
    margin-top: 20px;
 }
