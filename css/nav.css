@@ -33,6 +33,7 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    border: 2px solid #0E219E;
 }
 
 
@@ -107,5 +108,21 @@ such that no text wraps
 
     .navbar ul {
         display: flex;
+    }
+}
+
+@media screen and (min-width: 23.438em) {
+    .logo img {
+        height: 8vh;
+        width: 8vh;
+        padding: 25px;
+    }
+
+    .navbar {
+        margin: 9px;
+    }
+
+    .navbar ul {
+        padding-right: 20px;
     }
 }

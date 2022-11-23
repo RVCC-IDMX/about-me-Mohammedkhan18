@@ -45,30 +45,54 @@ header {
     padding: 30px;
 }
 
-#hero img {
-    width: 300px;
+#hero p {
+    line-height: 0%;
+}
 
+#hero {
+    padding-left: 10px;
+}
+
+
+#hero p {
+    padding-right: 50px;
+    margin-top: 3%;
+    line-height: none;
 }
 
 /* Bio Section */
 
-#bio {
+.bio {
     font-size: 120%;
-    max-width: 30rem;
-    margin-left: 50px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 105px 0px 10px;
-    background: rgba(0,0,0,0.52);
+    width: 100%;
+    margin-left: 300px;
+    margin-top: 0px;
     color: white;
+    background-image: url(../IMG/background.jpg);
+    background-repeat: no-repeat;
 }
 
-#bio h2 {
+
+.left-column {
+   width: 20%;
+   background-color: #9E7900;
+   background-color: rgba(0,0,0,.5);
+   padding: 20px;
+   margin-left: 100px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.bio h2 {
     padding-left: 50px;
 }
 
+
+.sidebar {
+
+}
   
-.iama {
+.left-column .iama {
     max-width: 100%;
     font-size: 90%;
     font-family: 'Cinzel Decorative';
@@ -76,13 +100,14 @@ header {
     text-align: center;
     padding-right: 30px;
 }
-p {
+.left-column p {
     font-weight: 'Roboto';
     font-size: 16px;
     padding-left: 50px;
-    margin-top: 5%;
+    margin-top: 5%; 
+    background: none;
 }
- .bio  {
+ .left-column .bio  {
     font-size: 20px;
     font-family: 'Roboto';
     text-align: center;
@@ -92,7 +117,7 @@ p {
     padding-right: 20px;
  }
 
-.my-info {
+.left-column .my-info {
     max-width: 100%;
     font-size: 90%;
     line-height: 150%;
@@ -303,6 +328,40 @@ legend {
         font-size: 34px;
     }
 
+    #hero img {
+        width: 90%;
+        padding-left: 15px;
+    }
+
+    #hero p {
+        padding-right: 0px;
+        padding-top: 10px;
+        line-height: 0%;
+        font-size: 60%;
+    }
+
+    #bio {
+        margin: 20px;
+        margin-top: 60px;
+    }
+    #bio h2 {
+        padding-left: 0px;
+    }
+
+    #bio p {
+        padding-left: 0px;
+    }
+
+    #bio .iama {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #bio .my-info {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
 }
 
  /* tablet size */
@@ -335,6 +394,50 @@ iframe {
     width: 750px;
     height: 500px;
 }
+#bio {
+    margin: 50px 0px 0px;
+    padding: 0px 24px;
+
+}
+#bio h2 {
+    margin-right: -50px;
+    font-size: 34px;
+}
+
+#hero img {
+    width: 90%;
+    padding-left: 15px;
+}
+
+#hero p {
+    padding-right: 0px;
+    padding-top: 10px;
+    line-height: 0%;
+    font-size: 100%;
+}
+
+#bio {
+    margin: 20px;
+    margin-top: 60px;
+}
+#bio h2 {
+    padding-left: px;
+}
+
+#bio p {
+    padding-left: 0px;
+}
+
+#bio .iama {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#bio .my-info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 }
 
@@ -378,6 +481,9 @@ iframe {
         width: 150%;
     }
 
+    #hero img {
+        width: 30%;
+    }
 
 }
 
