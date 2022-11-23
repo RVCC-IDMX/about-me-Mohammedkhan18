@@ -44,7 +44,9 @@ header {
     text-align: center;
     padding: 30px;
 }
-
+#hero img {
+    max-width: 20%;
+}
 #hero p {
     line-height: 0%;
 }
