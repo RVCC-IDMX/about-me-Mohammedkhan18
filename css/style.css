@@ -39,7 +39,7 @@ header {
 #hero, footer {
     color: #EBBD26;
     font-size: 120%;
-    border: 2px solid #0E219E;
+    border: 0px ridge #0E219E;
     background-color: #9E7900;
     text-align: center;
     padding: 30px;
@@ -69,6 +69,7 @@ header {
     max-width: 100%;
     margin-top: 0px;
     color: white;
+   border: 3.5px ridge #0E219E;
     background-image: url(../IMG/scenery.jpg);
     background-repeat: no-repeat;
     margin-left: 0px;
@@ -78,7 +79,7 @@ header {
 
  .left-column {
    width: 60%;
-   background-color: rgba(0,0,0,.52);
+   background-color: rgba(0,0,0,.4);
    padding: 20px;
    margin-left: 240px;
    margin-bottom: 0px;
@@ -106,7 +107,7 @@ header {
     margin-top: 5%; 
     background: none;
 }
-  .left-column .bio  {
+  .left-column #biography  {
     font-size: 20px;
     font-family: 'Roboto';
     text-align: left;
@@ -150,7 +151,7 @@ li {
     flex-direction: column;
     align-items: center;
     background-color: #9E7900;
-    border: 2px solid #0E219E;
+    border: 3.5px ridge #0E219E;
 }
 
 #hobbies p {
@@ -253,15 +254,28 @@ li {
     padding: 2rem;
     max-width: 650px;
     margin: 2rem auto;
+    max-width: 100%;
+    margin-top: 0px;
+    color: white;
+    border: 3.5px ridge #0E219E;
+    background-image: url(../IMG/scenery.jpg);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contact h2 {
+    color: #0E219E;
 }
 
 
 
 fieldset {
-    border: 3.5px dotted #0E219E;
+    border: 3.5px dotted white;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 1em;
+    background-color: rgba(0,0,0,.4);
     
 }
 
@@ -286,7 +300,7 @@ legend {
 
 #contact li {
     margin: 1rem;
-    color: #0E219E;
+    color: white;
     font-size: 1rem;
     border: none;
 }
@@ -303,7 +317,7 @@ legend {
 /* iPhone size */ 
 @media screen and (min-width: 23.438em) {
     body {
-        margin: 0rem;
+        padding: 0px;
     }
     #video iframe {
         width: 100%;
@@ -319,16 +333,23 @@ legend {
     font-size: 20px;
     margin-left: 1rem;
     }
+    #hero {
+        margin-bottom: 20px;
+    }
     #hero img {
-        width: 90%;
-        padding-left: 15px;
+        padding-left: 0px;
+        max-width: 50%;
     }
 
     #hero p {
         padding-right: 0px;
         padding-top: 10px;
         line-height: 0%;
-        font-size: 60%;
+        font-size: 70%;
+    }
+
+    .left-column {
+        margin-bottom: 0px;
     }
     .left-column {
         margin-left: 15%;
@@ -336,12 +357,14 @@ legend {
     }
     .bio h2 {
         margin-right: -50px;
-        font-size: 34px;
+        font-size: 30px;
+        padding-left: 0px;
     }
 
+    .left-column #biography {
+        margin-left: 0px;
+        width: 100%;
 
-    .bio h2 {
-        padding-left: 0px;
     }
 
     .bio p {
@@ -358,6 +381,20 @@ legend {
         padding-right: 50px;
     }
 
+
+    #hobbies {
+        margin-bottom: -45px;
+        margin-top: 20px;
+    }
+
+    #hobbies p {
+        padding: 20px;
+        margin-top: -20px;
+    }
+
+    #hobbies ul {
+        margin-top: -20px;
+    }
 }
 
  /* tablet size */
@@ -414,13 +451,16 @@ iframe {
 
 .bio {
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .bio h2 {
     padding-left: px;
 }
 
-.bio p {
+ 
+
+#bio p {
     padding-left: 0px;
 }
 
@@ -480,6 +520,15 @@ iframe {
     #hero img {
         width: 30%;
     }
+
+ .left-column p {
+        margin-top: 20px;
+    }
+
+.left-column #biography {
+    padding-top: 10px;
+}
+
 
 }
 
