@@ -66,22 +66,23 @@ header {
 
 .bio {
     font-size: 120%;
-    width: 100%;
-    margin-left: 0px;
+    max-width: 100%;
     margin-top: 0px;
     color: white;
     background-image: url(../IMG/scenery.jpg);
     background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
-.left-column {
-   width: 20%;
-   background-color: rgba(0,0,0,.5);
+ .left-column {
+   width: 60%;
+   background-color: rgba(0,0,0,.52);
    padding: 20px;
-   margin-left:100px;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   margin-left: 240px;
+   margin-bottom: 0px;
+   margin-top: 0px;
 }
 
 .bio h2 {
@@ -89,11 +90,8 @@ header {
 }
 
 
-.sidebar {
-
-}
   
-.left-column .iama {
+ .left-column .iama {
     max-width: 100%;
     font-size: 90%;
     font-family: 'Cinzel Decorative';
@@ -101,21 +99,20 @@ header {
     text-align: center;
     padding-right: 30px;
 }
-.left-column p {
+ .left-column p {
     font-weight: 'Roboto';
     font-size: 16px;
     padding-left: 50px;
     margin-top: 5%; 
     background: none;
 }
- .left-column .bio  {
+  .left-column .bio  {
     font-size: 20px;
     font-family: 'Roboto';
-    text-align: center;
-    max-width: 300%;
     text-align: left;
-    padding-left: 50px;
-    padding-right: 20px;
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 50px;
  }
 
 .left-column .my-info {
@@ -305,6 +302,9 @@ legend {
 
 /* iPhone size */ 
 @media screen and (min-width: 23.438em) {
+    body {
+        margin: 0rem;
+    }
     #video iframe {
         width: 100%;
     }
@@ -319,16 +319,6 @@ legend {
     font-size: 20px;
     margin-left: 1rem;
     }
-    #bio {
-        margin: 50px 0px 0px;
-        padding: 0px 24px;
-
-    }
-    #bio h2 {
-        margin-right: -50px;
-        font-size: 34px;
-    }
-
     #hero img {
         width: 90%;
         padding-left: 15px;
@@ -340,25 +330,30 @@ legend {
         line-height: 0%;
         font-size: 60%;
     }
-
-    #bio {
-        margin: 20px;
-        margin-top: 60px;
+    .left-column {
+        margin-left: 15%;
+        
     }
-    #bio h2 {
+    .bio h2 {
+        margin-right: -50px;
+        font-size: 34px;
+    }
+
+
+    .bio h2 {
         padding-left: 0px;
     }
 
-    #bio p {
+    .bio p {
         padding-left: 0px;
     }
 
-    #bio .iama {
+    .bio .iama {
         padding-left: 50px;
         padding-right: 50px;
     }
 
-    #bio .my-info {
+    .bio .my-info {
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -395,12 +390,12 @@ iframe {
     width: 750px;
     height: 500px;
 }
-#bio {
+.bio {
     margin: 50px 0px 0px;
     padding: 0px 24px;
 
 }
-#bio h2 {
+.bio h2 {
     margin-right: -50px;
     font-size: 34px;
 }
@@ -417,24 +412,24 @@ iframe {
     font-size: 100%;
 }
 
-#bio {
+.bio {
     margin: 20px;
     margin-top: 60px;
 }
-#bio h2 {
+.bio h2 {
     padding-left: px;
 }
 
-#bio p {
+.bio p {
     padding-left: 0px;
 }
 
-#bio .iama {
+.bio .iama {
     padding-left: 50px;
     padding-right: 50px;
 }
 
-#bio .my-info {
+.bio .my-info {
     padding-left: 50px;
     padding-right: 50px;
 }
