@@ -26,8 +26,8 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #9E7900;
-    color: whitesmoke;
+    background-color: #947100;
+    color: white;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -64,6 +64,11 @@ main {
     border: none;
     display: block;
     padding: 0.5em 0;
+    margin-right: 20px;
+}
+
+.navbar-links ul {
+    margin-top: -5px;
 }
 
 
@@ -74,8 +79,8 @@ main {
 */
 
 .navbar-links a {
-    color: whitesmoke;
-    background-color: #9E7900;
+    color: white;
+    background-color: #947100;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -86,7 +91,7 @@ main {
 .navbar-links a:hover,
 .navbar-links a:focus {
     color: #333;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 10px;
     outline: none;
 }

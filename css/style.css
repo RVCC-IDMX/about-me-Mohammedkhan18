@@ -28,22 +28,34 @@ h3 {
 }
 
 
-
-
 header {
     text-align: center;
+}
+/* footer section */ 
+footer {
+    color: white;
+    font-size: 120%;
+    border: 3.5px ridge #0E219E;
+    background-color: #947100;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    text-decoration: none;
 }
 
 /* Hero Section */
 
-#hero, footer {
-    color: #EBBD26;
+#hero {
+    color: whitesmoke;
     font-size: 120%;
     border: 3.5px ridge #0E219E;
-    background-color: #9E7900;
+    background-color: #947100;
     text-align: center;
     padding: 30px;
 }
+
 #hero img {
     max-width: 20%;
 }
@@ -88,6 +100,8 @@ header {
 
 .bio h2 {
     padding-left: 50px;
+    border-bottom: 3px solid #947100;
+    border-heigh: ;
 }
 
 
@@ -142,22 +156,24 @@ li:nth-child(odd) {
     padding-right: 15px;
 }
 li {
-    font-size: 1.30rem;
-    color: #EBBD26;
+    font-size: 1.10rem;
+    color: white;
 }
 
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #9E7900;
+    background-color: #947100;
     border: 3.5px ridge #0E219E;
 }
 
 #hobbies p {
-    font-size: 1.30rem;
-    color: #EBBD26;
+    font-size: 1.10rem;
+    color: white;
 }
+
+
 
 
 
