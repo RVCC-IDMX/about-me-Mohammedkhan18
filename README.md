@@ -49,6 +49,21 @@ When I was working on the video section, I learned how to create iframes and all
 
 
 
+## Citations
+
+* Basic Markdown Syntax from [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+* Fonts from [Google Fonts](https://fonts.google.com/).
+
+* Some concepts that I used for my project were from [W3Schools](https://www.w3schools.com/).
+
+* The idea I used for the menu was from [Youtube](https://www.youtube.com/watch?v=S-JyJCVx_4Y).
+
+
+
+
+
+
 
 
 

@@ -33,7 +33,16 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    border: 3.5px ridge #0E219E;
+    border-bottom: 3.5px ridge #0E219E;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    border: none;
 }
 
 
@@ -59,12 +68,36 @@ main {
 
 /* navigation list */
 
-.navbar-links li {
+.links li {
     list-style: none;
     border: none;
     display: block;
     padding: 0.5em 0;
 }
+
+/* navigation */
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
 
 
 
@@ -75,7 +108,7 @@ main {
  and then on hover
 */
 
-.navbar-links a {
+.links a {
     color: white;
     background-color: #947100;
     font-size: 1.5rem;
@@ -85,8 +118,8 @@ main {
     display: inline-block;
 }
 
-.navbar-links a:hover,
-.navbar-links a:focus {
+.links a:hover,
+.links a:focus {
     color: #333;
     background-color: white;
     border-radius: 10px;
@@ -111,7 +144,11 @@ such that no text wraps
     .navbar ul {
         display: flex;
     }
+
+   
+	
 }
+
 
 @media screen and (min-width: 23.438em) {
     .logo img {
@@ -122,11 +159,57 @@ such that no text wraps
 
     .navbar {
         margin: 9px;
+        margin-left: -100px;
     }
 
     .navbar ul {
         padding-right: 20px;
     }
+
+    nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+    nav .links li {
+        padding-top: 57px;
+        padding-bottom: 0;
+    }
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
    
 
 }
