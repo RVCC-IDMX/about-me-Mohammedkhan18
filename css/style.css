@@ -203,6 +203,7 @@ li {
 
 #gallery img {
     max-width: 95%;
+    position: relative;
 }
 
 #gallery figure {
@@ -347,7 +348,7 @@ legend {
 
 
 /* iPhone size */ 
-@media screen and (min-width: 23.438em) {
+@media screen and (min-width: 23.4375em) {
     body {
         padding: 0px;
     }

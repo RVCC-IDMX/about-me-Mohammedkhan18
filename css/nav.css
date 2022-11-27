@@ -33,13 +33,13 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    border-bottom: 3.5px ridge #0E219E;
+    border: 2px ridge #0E219E;
 }
 
 nav {
     position: fixed;
     z-index: 10;
-    left: -10px;
+    left: 100px;
     right: -10px;
     top: -10px;
     border: none;
@@ -134,7 +134,7 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-@media screen and (min-width: 60rem) {
+@media screen and (max-width: 60rem) {
 
     .navbar {
         flex-direction: row;
@@ -150,7 +150,7 @@ such that no text wraps
 }
 
 
-@media screen and (min-width: 23.438em) {
+@media screen and (min-width: 23.4375em) {
     .logo img {
         height: 8vh;
         width: 8vh;
@@ -170,6 +170,7 @@ such that no text wraps
 		float: none;
 		width: auto;
 		justify-content: center;
+        margin-left: -20px;
 	}
 	nav .links {
 		float: none;
