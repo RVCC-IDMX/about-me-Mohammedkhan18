@@ -1,7 +1,7 @@
 # About Me
 Hi there, my name is **Mohammed Khan** and this is my About Me Website [![Netlify Status](https://api.netlify.com/api/v1/badges/ce964819-fdaa-4e37-b28d-d6e8ddb764ce/deploy-status)](https://app.netlify.com/sites/about-me-mohammed-khan/deploys)
 
-## Project Description
+## Project Description:
 The purpose of this project was to implement  the concepts that we learned in class to our own website. These concepts can include:
 
 * We used HTML as the backbone of the webpage. We added things like objects, images, navbars, video, etc. 
@@ -49,7 +49,7 @@ When I was working on the video section, I learned how to create iframes and all
 
 
 
-## Citations
+## Citations:
 
 * Basic Markdown Syntax from [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
@@ -58,6 +58,8 @@ When I was working on the video section, I learned how to create iframes and all
 * Some concepts that I used for my project were from [W3Schools](https://www.w3schools.com/).
 
 * The idea I used for the menu was from [Youtube](https://www.youtube.com/watch?v=S-JyJCVx_4Y).
+
+* The color scheme I used in my project was from [Adobe Color](https://color.adobe.com/create/color-wheel).
 
 
 
