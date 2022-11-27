@@ -64,12 +64,9 @@ main {
     border: none;
     display: block;
     padding: 0.5em 0;
-    margin-right: 20px;
 }
 
-.navbar-links ul {
-    margin-top: -5px;
-}
+
 
 
 
@@ -130,4 +127,6 @@ such that no text wraps
     .navbar ul {
         padding-right: 20px;
     }
+   
+
 }
