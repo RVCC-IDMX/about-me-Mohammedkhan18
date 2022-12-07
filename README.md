@@ -20,7 +20,7 @@ While doing this project, I learned many skills which you can read right below:
 
 #### Navbar Section
 
-While working on the navbar section, I learned how to create a practical and  active navbar in which my user will be able to instantly get to any section on the webpage. Additionally, I learned how to build a "hamburger menu" for mobile screen sizes. 
+While working on the navbar section, I learned how to create a practical and  active navbar in which my user will be able to instantly get to any section on the webpage. Additionally, I learned how to build a "hamburger menu" for mobile screen sizes and to make the background of the links transparent. 
 
 #### Profile Section
 
@@ -36,7 +36,7 @@ While I was working on the hobbies section, I learned how to create an unordered
 
 #### Gallery Section
 
-While I was working on the gallery section, I learned how to add images and how to use a figure to provide captions to my images. I was able to change how the multiple figures looked on the webpage. For example, while the screen size is a laptop or a desktop, the 3 figures will be in a row with the captions on the bottom. For the iPhone size, the 3 figures will be in a column with the captions on the bottom. 
+While I was working on the gallery section, I learned how to add images and how to use a figure to provide captions to my images. I was able to change how the multiple figures looked on the webpage. For example, while the screen size is a laptop or a desktop, the 3 figures will be in a row with the captions on the bottom. For the iPhone size, the 3 figures will be in a column with the captions on the bottom. I also learned how to add hover effects to the images. 
 
 #### Lit Section 
 
@@ -60,6 +60,9 @@ When I was working on the video section, I learned how to create iframes and all
 * The idea I used for the menu was from [Youtube](https://www.youtube.com/watch?v=S-JyJCVx_4Y).
 
 * The color scheme I used in my project was from [Adobe Color](https://color.adobe.com/create/color-wheel).
+
+* The idea I used for the gallery was from [Youtube]
+(https://www.youtube.com/watch?v=tF3RE5CGt9U)
 
 
 
