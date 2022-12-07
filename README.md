@@ -61,8 +61,7 @@ When I was working on the video section, I learned how to create iframes and all
 
 * The color scheme I used in my project was from [Adobe Color](https://color.adobe.com/create/color-wheel).
 
-* The idea I used for the gallery was from [Youtube]
-(https://www.youtube.com/watch?v=tF3RE5CGt9U)
+* The idea I used for the gallery was from [Youtube](https://www.youtube.com/watch?v=tF3RE5CGt9U)
 
 
 
