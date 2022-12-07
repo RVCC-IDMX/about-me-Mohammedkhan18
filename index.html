@@ -16,10 +16,9 @@
     
     <!--the body element contains all content shown to a 
     visitor-->
-
         <header>
             <nav class="navbar">
-               <input id="nav-toggle" type="checkbox">
+                <input id="nav-toggle" type="checkbox">
                <div class="logo">
                 <!-- the header shows logo and page title -->
             <img  src="IMG/mohammed-khan-logo.png" alt="logo">
@@ -29,7 +28,7 @@
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -44,19 +43,18 @@
 
 
             <section id="hero">
-                <!--hero section: shows
-                profile image, name and location-->
+                <!--hero section: -->
                 <img src="IMG/profile.jpg" alt="My profile">
             <div>
-                <p>Mohammed Zohair Khan</p>
-                <p>Belle Meade, NJ</p>
+                <p>Hi, I am Mohammed Z. Khan.</p><p>And I am a beginner web developer</p>
+        
             </div>
             </section>
+            <!-- Bio Section -->
             <section class="bio">
                 <div class="left-column">
                 <h2>Biography:</h2>
-                <p id="biography">Hi, I am Mohammed Khan and I am a beginner Web Developer. </p>
-                <p><br>I am currently working towards becoming a web developer. I am currently a student in Raritan Valley Community College. I am from</br></p>
+                <p id="biography">I am currently working towards becoming a web developer. I am currently a student in Raritan Valley Community College. Below are some facts about myself: </br></p>
                
                     
                     <p class="iama">I want to be... </p>
@@ -69,6 +67,8 @@
                         <p class="my-info">read books and to watch TV.</p>
                 </div>
             </section>
+
+            <!-- Hobbies Section -->
         <section id="hobbies">
             <h2>Hobbies:</h2>
             <p>Here are some of my hobbies that I like to do when I am free:</p>
@@ -81,41 +81,35 @@
                 <li>etc.</li>
             </ul>
         </section>
+
+        <!-- Gallery Section -->
         <section id="gallery">
 
             <h2>Photo Gallery</h2>
 
-            <hr>
 
-            <figure>
-                <img src="IMG/art-640w.jpg" alt="container">
-                <div class="image-overlay">
-                <div class="image__title">Clay Container</div>
-                <div class="image__description">A beautiful container, made with clay, with a  butterfly inside.</div>
+                <div class="img-wrapper">
+                <img class="blur" src="IMG/art-640w.jpg" alt="container">
+                    <div class="content slide-left">A beautiful container, made with clay, with a  butterfly inside. </div>
                 </div>
-            </figure>
 
-            <hr>
            
-            <figure>
-                <img src="IMG/driving-640w.jpg" alt="driver's manual">
-                <figcaption>
-                    New Jersey's Manual for Driving. I like to drive on my free time. 
-                </figcaption>
-            </figure>
+                <div class="img-wrapper">
+                <img class="blur" src="IMG/driving-640w.jpg" alt="driver's manual">
+                <div class="content slide-top">New Jersey's Manual for Driving. I like to drive on my free time.</div>
+               </div> 
 
-            <hr>
+            
 
-           <figure>
-             <img src="IMG/book-640w.jpg" alt="reading a book">
-            <figcaption>
-                I am reading a book called, "The Absolutely True Diary of a Part-Time Indian". 
-            </figcaption>
-        </figure>
+             <div class="img-wrapper">
+             <img class="blur" src="IMG/book-640w.jpg" alt="reading a book">
+             <div class="content slide-left">I am reading a book called, "The Absolutely True Diary of a Part-Time Indian". I like to read books.</div>
+            </div>
+        
 
         </section>
 
-
+        <!-- Lit Section -->
         <article id="lit">
             <h2>An Excerpt From Dracula</h2>
 
@@ -131,6 +125,8 @@
                 <p>He suddenly stopped and looked at me intently for several moments. Then, without a word, he rose and moving over, sat down on the side of the bed. The collapse had come, as on former occasion, just as I had expected.</p>
             </div>
         </article>
+
+        <!-- Video Section -->
         <section id="video">
             <h2>A Short Video:</h2>
             
@@ -145,6 +141,8 @@
            
            
         </section>
+
+        <!-- Contact Form Section -->
 
         <section id="contact">
             <h2>Contact Us:</h2>
@@ -217,6 +215,7 @@
         </section>
         </main>
 
+        <!-- Footer Section -->
         <footer>
            <p>©2022 - Mohammed Khan</p> 
            <a href="https://github.com/RVCC-IDMX/about-me-Mohammedkhan18"> <svg class="github" width="64" height="64" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg">
