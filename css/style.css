@@ -218,6 +218,7 @@ li {
     padding: 30px;
     object-fit: cover;
     object-position: center;
+    border: 3px dotted #0E219E;
    
 }
 
@@ -337,7 +338,6 @@ li {
 
 #contact {
     padding: 2rem;
-    max-width: 650px;
     margin: 2rem auto;
     max-width: 100%;
     margin-top: 0px;
@@ -404,14 +404,6 @@ legend {
 
 /* iPhone size */ 
 @media screen and (min-width: 23.4375em) {
-    .img-wrapper > img {
-        padding: 19px;
-        width: 90%;
-    }
-
-    .img-wrapper > .content {
-        font-size: 1.5rem;
-    }
     body {
        margin-right: -100%;
     }
@@ -572,9 +564,6 @@ iframe {
         grid-column: 1/-1;
     }
 
-    figure {
-        display: block;
-    }
 
     #video {
         display: grid;
@@ -586,13 +575,16 @@ iframe {
     }
 
     #video figcaption {
-        padding-left: 19em;
+        padding-left: 30em;
         padding-bottom: 15%;
+        margin-left: -100%;
         width: 100%;
+        text-align: center;
     }
 
     #video iframe {
         width: 150%;
+        margin-left: -100%;
     }
 
     #hero img {

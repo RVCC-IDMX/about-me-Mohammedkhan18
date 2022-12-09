@@ -64,6 +64,25 @@ When I was working on the video section, I learned how to create iframes and all
 * The idea I used for the gallery was from [Youtube](https://www.youtube.com/watch?v=tF3RE5CGt9U)
 
 
+## Color Scheme:
+When using CSS to make my webpage, I had to come up with a color scheme that looks good and is easily readable (minimum color contrast of 4.5). The color scheme is below:
+
+* #0E219E or rgb(14,33,158,) <img width="20" height="20" alt="color1" src="https://user-images.githubusercontent.com/112670851/206604933-a5a70172-18a4-4482-ac12-d4382c424a19.png">
+
+* #425BFF or rgb(66,91,255) <img width="20" height="20" alt="color2" src="https://user-images.githubusercontent.com/112670851/206605855-e8d29696-e6e4-4ea1-a3f8-24fd6b5b3791.png">
+
+* #263FEB or rgb(38,63,235) <img width="20" height="20" alt="color3" src="https://user-images.githubusercontent.com/112670851/206606424-95225459-134b-40f8-ae60-f3082c72751a.png">
+
+* #9E7900 or rgb(158,121,0) <img width="20"  height="20" alt="Color4" src="https://user-images.githubusercontent.com/112670851/206608904-d1b803cb-0183-4e20-b66a-dbccca39e05b.png">
+
+* #EBBD26 or rgb(235,189,38) <img width="20" height="20" alt="Screen Shot 2022-12-08 at 9 23 30 PM" src="https://user-images.githubusercontent.com/112670851/206609838-f30d5629-9ec0-4ea0-9fd4-bac3c706914f.png">
+
+
+
+
+
+
+
 
 
 
