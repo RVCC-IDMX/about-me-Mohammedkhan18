@@ -78,7 +78,7 @@ When using CSS to make my webpage, I had to come up with a color scheme that loo
 * #EBBD26 or rgb(235,189,38) <img width="20" height="20" alt="Screen Shot 2022-12-08 at 9 23 30 PM" src="https://user-images.githubusercontent.com/112670851/206609838-f30d5629-9ec0-4ea0-9fd4-bac3c706914f.png">
 
 
-## License 
+## Licensing
 
 Copyright © [2022] [Mohammed Zohair Khan]
 
@@ -100,7 +100,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
+You can get in contact with me (Mohammed Zohair Khan) via email @ khanzohair71@gmail.com.
 
 
 
