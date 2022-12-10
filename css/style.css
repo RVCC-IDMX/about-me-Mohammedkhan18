@@ -54,10 +54,11 @@ footer svg {
 #hero {
     color: #0E219E;
     font-size: 120%;
-    border: 3.5px ridge #0E219E;
+    border: 4px dotted #0E219E;
     background-color: #EBBD26;
     text-align: center;
     padding: 30px;
+    border-radius: 10em;
 }
 
 #hero img {
@@ -83,7 +84,7 @@ footer svg {
 
 /* Bio Section */
 
-.bio {
+#bio {
     font-size: 120%;
     max-width: 100%;
     margin-top: 0px;
@@ -107,12 +108,12 @@ footer svg {
    border-radius: 5em;
 }
 
-.bio h2 {
+#bio h2 {
     margin-left: 50px;
 
 }
 
-.bio h2::after {
+#bio h2::after {
     content: '';
     display: block;
     position: absolute;
@@ -174,7 +175,7 @@ li:nth-child(odd) {
     padding-right: 15px;
 }
 li {
-    font-size: 1.10rem;
+    font-size: 1.30rem;
     color: ;
 }
 
@@ -183,13 +184,16 @@ li {
     flex-direction: column;
     align-items: center;
     background-color: #EBBD26;
-    border: 3.5px ridge #0E219E;
+    border: 4px dotted #0E219E;
+    border-radius: 10em;
 }
 
 #hobbies p {
-    font-size: 1.10rem;
+    font-size: 1.30rem;
     color: #0E219E;
 }
+
+
 
 
 
@@ -235,23 +239,21 @@ li {
 }
 
 .img-wrapper > img, .img-wrapper > .content {
-    transition: 300ms ease-in-out;
+    transition: 900ms ease-in-out;
 }
 
 .img-wrapper:hover > img.blur {
     filter: blur(5.5px);
 }
 
-.img-wrapper:hover > img.zoom {
-    transform: scale(1.1);
+
+
+.img-wrapper > .content.zoom {
+    transform: scale(0);
 }
 
-.img-wrapper > .content.slide-top {
-    transform: translateY(-100%);
-}
-
-.img-wrapper:hover > .content.slide-top {
-    transform: translateY(0);
+.img-wrapper:hover > .content.zoom {
+    transform: scale(1);
 }
 
 .img-wrapper > .content.slide-left {
@@ -278,11 +280,21 @@ li {
     margin-bottom: 2rem;
 }
 
+#lit img {
+    max-width: 20em;
+    padding-left: 30%;
+}
+
+#lit h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
 #lit div {
     padding: 2rem;
     max-width: 50rem;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
@@ -404,6 +416,9 @@ legend {
 
 /* iPhone size */ 
 @media screen and (min-width: 23.4375em) {
+    #lit img {
+        max-width: 10.5em;
+    }
     body {
        margin-right: -100%;
     }
@@ -493,8 +508,7 @@ legend {
 @media screen and  (min-width: 60em) {
 
 #lit div {
-    max-width: 100%;
-    columns: 20rem;
+    max-width: 80%;
 }
 
 iframe {
@@ -598,7 +612,9 @@ iframe {
 .left-column #biography {
     padding-top: 10px;
 }
-
+#lit img {
+    max-width: 20em;
+}
 
 }
 

@@ -184,7 +184,7 @@ such that no text wraps
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: rgba(0,0,0,.8);
+		background-color: rgba(0,0,0,.6);
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;

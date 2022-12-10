@@ -25,9 +25,12 @@
             <h1>Web Dev I</h1>
                </div> 
                 <ul class="links">
+                    <li><a href="#hero">Main</a></li>
                     <li><a href="#bio">Bio</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#lit">Blog</a></li>
+                    <li><a href="#video">My Video</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
@@ -50,21 +53,23 @@
         
             </div>
             </section>
+
             <!-- Bio Section -->
-            <section class="bio">
+
+            <section id="bio">
                 <div class="left-column">
                 <h2>Biography:</h2>
                 <p id="biography">I am currently working towards becoming a web developer. I am currently a student in Raritan Valley Community College. Below are some facts about myself: </br></p>
                
                     
                     <p class="iama">I want to be... </p>
-                    <p class="my-info"> a web Designer</p>
+                    <p class="my-info">I never pictured myself to choose the career of a web developer, but after taking a class on web developing in high school, I got interested in it. Then, I decided to make this my major in college. Now, I want to be a web developer. The idea that got me interested in web developing was that it included creativity and some knowledge about the web.</p>
 
-                    <p class="iama"> My favorite book genre is...</p>
-                        <p class="my-info">horror and mystery</p>
+                    <p class="iama"> My desire is... </p>
+                        <p class="my-info">to help other people to learn about different elements in CSS through blogging. </p>
 
                         <p class="iama">In my free time, I like to...</p>
-                        <p class="my-info">read books and to watch TV.</p>
+                        <p class="my-info">learn new stuff about web developing and to watch youtube. I believe that you need happiness while fulfilling your dream. Being happy gives you that enthusiasm to go forward with your dream.</p>
                 </div>
             </section>
 
@@ -89,20 +94,20 @@
 
 
                 <div class="img-wrapper">
-                <img class="zoom blur" src="IMG/art-640w.jpg" alt="container">
+                <img class="blur" src="IMG/art-640w.jpg" alt="container">
                     <div class="content slide-left">A beautiful container, made with clay, with a  butterfly inside. </div>
                 </div>
 
            
                 <div class="img-wrapper">
-                <img class="zoom blur" src="IMG/driving-640w.jpg" alt="driver's manual">
-                <div class="content slide-top">New Jersey's Manual for Driving. I like to drive on my free time.</div>
+                <img class="blur" src="IMG/driving-640w.jpg" alt="driver's manual">
+                <div class="content zoom">New Jersey's Manual for Driving. I like to drive on my free time.</div>
                </div> 
 
             
 
              <div class="img-wrapper">
-             <img class="zoom blur" src="IMG/book-640w.jpg" alt="reading a book">
+             <img class="blur" src="IMG/book-640w.jpg" alt="reading a book">
              <div class="content slide-left">I am reading a book called, "The Absolutely True Diary of a Part-Time Indian". I like to read books.</div>
             </div>
         
@@ -111,10 +116,32 @@
 
         <!-- Lit Section -->
         <article id="lit">
+            <h2>An Excerpt From Dracula</h2>
+
+            <div>
+                <p>As, however, I got near the door, a new change came over the patient. He moved towards me so quickly that for the moment I feared that he was about to make another homicidal attack. My fears, however, were groundless, for he held up his two hands imploringly, and made his petition in a moving manner. As he saw that the very excess of his emotion was militating against him, by restoring us more to our old relations, he became still more demonstrative. I glanced at Van Helsing, and saw my conviction reflected in his eyes; so I became a little more fixed in my manner, if not more stern, and motioned to him that his efforts were unavailing. I had previously seen something of the same constantly growing excitement in him when he had to make some request of which at the time he had thought much, such, for instance, as when he wanted a cat; and I was prepared to see the collapse into the same sullen acquiescence on this occasion. My expectation was not realised, for, when he found that his appeal would not be successful, he got into quite a frantic condition. He threw himself on his knees, and held up his hands, wringing them in plaintive supplication, and poured forth a torrent of entreaty, with the tears rolling down his cheeks, and his whole face and form expressive of the deepest emotion:--</p>
+
+                <p>Let me entreat you, Dr. Seward, oh, let me implore you, to let me out of this house at once. Send me away how you will and where you will; send keepers with me with whips and chains; let them take me in a strait-waistcoat, manacled and leg-ironed, even to a gaol; but let me go out of this. You don't know what you do by keeping me here. I am speaking from the depths of my heart--of my very soul. You don't know whom you wrong, or how; and I may not tell. Woe is me! I may not tell. By all you hold sacred--by all you hold dear--by your love that is lost--by your hope that lives--for the sake of the Almighty, take me out of this and save my soul from guilt! Can't you hear me, man? Can't you understand? Will you never learn? Don't you know that I am sane and earnest now; that I am no lunatic in a mad fit, but a sane man fighting for his soul? Oh, hear me! hear me! Let me go! let me go! let me go!"</p>
+
+                <p>I thought that the longer this went on the wilder he would get, and so would bring on a fit; so I took him by the hand and raised him up.</p>
+
+                <p>Come," I said sternly, "no more of this; we have had quite enough already. Get to your bed and try to behave more discreetly."</p>
+
+                <p>He suddenly stopped and looked at me intently for several moments. Then, without a word, he rose and moving over, sat down on the side of the bed. The collapse had come, as on former occasion, just as I had expected.</p>
+            </div>
+        </article>
+        <!-- Blog Section -->
+
+        <article id="lit">
             <h2>Image Hover Effect</h2>
 
             <div>
-                
+                <p>By using image hover effects, you can produce results that are beautiful on any website with less effort. Image hover effects are widely used in web designing because you can implement them easily and it increases a sense of liveliness for the user experience. The use of Cascading Style Sheet (CSS) gives you plenty of ways to implement stylish effects.</p>
+                <p><br>This is how I inserted a hover effect to my image gallery. It transitions the content of each image to slide from the left and to zoom out.</p>
+                <p>The user can see that the image and the content is located under the class: img-wrapper. See the image below: </p>
+                <img src="IMG/image-and-content-html.png" alt="code">
+                <p>Next, the user can see that I added the transitions, slide-left and zoom, in the class: content. See the image: </p>
+                <img src="IMG/adding-transitions.png" alt="code">
             </div>
         </article>
 
