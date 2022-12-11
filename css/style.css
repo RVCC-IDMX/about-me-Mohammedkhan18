@@ -239,7 +239,7 @@ li {
 }
 
 .img-wrapper > img, .img-wrapper > .content {
-    transition: 900ms ease-in-out;
+    transition:2000ms ease-in-out;
 }
 
 .img-wrapper:hover > img.blur {

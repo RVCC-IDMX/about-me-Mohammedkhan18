@@ -1,5 +1,11 @@
 # About Me
+This is my logo: 
+
+<img width="70" height="70"  alt="logo" src="IMG/mohammed-khan-logo.png">  
+
 Hi there, my name is **Mohammed Khan** and this is my About Me Website [![Netlify Status](https://api.netlify.com/api/v1/badges/ce964819-fdaa-4e37-b28d-d6e8ddb764ce/deploy-status)](https://app.netlify.com/sites/about-me-mohammed-khan/deploys)
+
+
 
 ## Project Description:
 The purpose of this project was to implement  the concepts that we learned in class to our own website. These concepts can include:
@@ -100,7 +106,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-You can get in contact with me (Mohammed Zohair Khan) via email @ khanzohair71@gmail.com.
+You can get in contact with me (Mohammed Zohair Khan) via email at khanzohair71@gmail.com.
 
 
 
