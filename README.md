@@ -44,14 +44,18 @@ While I was working on the hobbies section, I learned how to create an unordered
 
 While I was working on the gallery section, I learned how to add images and how to use a figure to provide captions to my images. I was able to change how the multiple figures looked on the webpage. For example, while the screen size is a laptop or a desktop, the 3 figures will be in a row with the captions on the bottom. For the iPhone size, the 3 figures will be in a column with the captions on the bottom. I also learned how to add hover effects to the images. 
 
-#### Lit Section 
+#### Blog Section 
 
-
+When I was working on the blog section, I had to choose one of the topics that were given in the assignment. I chose the topic,image hover effect. I wrote how I created the image hover effect. First, I included a introduction to the topic. Then, I broke down every step that I took. i also included images of the code. At the end, I included images of the final result. 
 
 
 #### Video Section
 
 When I was working on the video section, I learned how to create iframes and all of the different properties I could use in my webpage. I was able to stretch my knowledge of css to create a responsive iframe. 
+
+#### Contact Section 
+
+When I was working on the contact section, I learned many new things. I learned how to make a working form that interconnects with Netlify to store all of the user's responses. I learned how to add a small text box (for things like names and email addresses), a bigger text box (for longer responses), a selection box and using a unordered list to get a yes or no answers (using radio inputs). 
 
 
 
@@ -67,7 +71,9 @@ When I was working on the video section, I learned how to create iframes and all
 
 * The color scheme I used in my project was from [Adobe Color](https://color.adobe.com/create/color-wheel).
 
-* The idea I used for the gallery was from [Youtube](https://www.youtube.com/watch?v=tF3RE5CGt9U)
+* The idea I used for the gallery was from [Youtube](https://www.youtube.com/watch?v=tF3RE5CGt9U) 
+
+* The information I used for the blog was from [WPDataTables](https://wpdatatables.com/css-image-hover-effects/)
 
 
 ## Color Scheme:
