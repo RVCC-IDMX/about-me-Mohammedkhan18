@@ -98,10 +98,10 @@ footer svg {
 
 
  .left-column {
-   width: 60%;
+  max-width: 60%;
    background-color: rgba(0,0,0,.52);
    padding: 20px;
-   margin-left: 240px;
+   margin-left: ;
    margin-bottom: 0px;
    margin-top: 0px;
    border: 3.5px dotted white;
@@ -109,7 +109,8 @@ footer svg {
 }
 
 #bio h2 {
-    margin-left: 50px;
+    font-size: 150%;
+    margin-left: 20px;
 
 }
 
@@ -127,7 +128,7 @@ footer svg {
   
  .left-column .iama {
     max-width: 100%;
-    font-size: 90%;
+    font-size: 15%;
     font-family: 'Cinzel Decorative';
     font-weight: 700;
     text-align: center;
@@ -135,7 +136,7 @@ footer svg {
 }
  .left-column p {
     font-weight: 'Roboto';
-    font-size: 16px;
+    font-size: 70%;
     padding-left: 50px;
     margin-top: 5%; 
     background: none;
@@ -151,7 +152,7 @@ footer svg {
 
 .left-column .my-info {
     max-width: 100%;
-    font-size: 90%;
+    font-size: 70%;
     line-height: 150%;
     margin: 0px auto 3em;
     font-family: 'Roboto';
@@ -217,13 +218,12 @@ li {
 
 .img-wrapper > img {
     display: block;
-    width: 90%;
+    max-width: 90%;
     aspect-ratio: 1 / 1;
     padding: 30px;
     object-fit: cover;
     object-position: center;
     border: 3px dotted #0E219E;
-   
 }
 
 .img-wrapper > .content {
@@ -239,14 +239,12 @@ li {
 }
 
 .img-wrapper > img, .img-wrapper > .content {
-    transition:2000ms ease-in-out;
+    transition: 500ms ease-in-out;
 }
 
 .img-wrapper:hover > img.blur {
     filter: blur(5.5px);
 }
-
-
 
 .img-wrapper > .content.zoom {
     transform: scale(0);
@@ -264,11 +262,11 @@ li {
     transform: translateX(0);
 }
 
-.img-wrapper > .content.slide-left {
-    transform: translateX(-100%);
+.img-wrapper > .content.slide-right {
+    transform: translateX(100%);
 }
 
-.img-wrapper:hover > .content.slide-left {
+.img-wrapper:hover > .content.slide-right {
     transform: translateX(0);
 }
 
@@ -419,7 +417,8 @@ legend {
 /* iPhone size */ 
 @media screen and (min-width: 23.4375em) {
     #lit img {
-        max-width: 10.5em;
+        max-width: 10em;
+        margin-left: 5px;
     }
     body {
        margin-right: -100%;
@@ -453,39 +452,36 @@ legend {
         font-size: 70%;
     }
 
-    .left-column {
-        margin-bottom: 0px;
-    }
-    .left-column {
+    .left-column  {
         margin-left: 15%;
-        
-    }
-    .bio h2 {
-        margin-left: 2%;
-        font-size: 30px;
-        padding-left: 0px;
-
-        margin-bottom: 20px;
     }
 
+   
+    #bio h2 {
+        font-size: 120%;
+    }
     .left-column #biography {
         margin-left: 0px;
         width: 100%;
+        font-size: 80%;
 
     }
 
-    .bio p {
+    #bio p {
         padding-left: 0px;
     }
 
-    .bio .iama {
+    #bio .iama {
         padding-left: 50px;
         padding-right: 50px;
+        font-size: 70%;
     }
 
-    .bio .my-info {
-        padding-left: 50px;
+    #bio .my-info {
+        padding-left: -20px;
         padding-right: 50px;
+        font-size: 60%;
+        width: 100%;
     }
 
 
@@ -501,6 +497,16 @@ legend {
 
     #hobbies ul {
         margin-top: -20px;
+    }
+
+    .img-wrapper > img {
+        max-width: 70%;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .img-wrapper > .content {
+        font-size: 20px;
     }
 
    
@@ -564,6 +570,10 @@ iframe {
     padding-right: 50px;
 }
 
+.img-wrapper > img {
+    width
+}
+
 }
 
 /* large screen size */
@@ -607,6 +617,7 @@ iframe {
         width: 30%;
     }
 
+
  .left-column p {
         margin-top: 20px;
     }
@@ -614,8 +625,11 @@ iframe {
 .left-column #biography {
     padding-top: 10px;
 }
+
+
 #lit img {
-    max-width: 20em;
+    max-width: 20rem;
+    margin-left: 30%;
 }
 
 }

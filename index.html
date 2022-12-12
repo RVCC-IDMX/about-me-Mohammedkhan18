@@ -108,28 +108,12 @@
 
              <div class="img-wrapper">
              <img class="blur" src="IMG/book-640w.jpg" alt="reading a book">
-             <div class="content slide-left">I am reading a book called, "The Absolutely True Diary of a Part-Time Indian". I like to read books.</div>
+             <div class="content slide-right">I am reading a book called, "The Absolutely True Diary of a Part-Time Indian". I like to read books.</div>
             </div>
         
 
         </section>
 
-        <!-- Lit Section -->
-        <article id="lit">
-            <h2>An Excerpt From Dracula</h2>
-
-            <div>
-                <p>As, however, I got near the door, a new change came over the patient. He moved towards me so quickly that for the moment I feared that he was about to make another homicidal attack. My fears, however, were groundless, for he held up his two hands imploringly, and made his petition in a moving manner. As he saw that the very excess of his emotion was militating against him, by restoring us more to our old relations, he became still more demonstrative. I glanced at Van Helsing, and saw my conviction reflected in his eyes; so I became a little more fixed in my manner, if not more stern, and motioned to him that his efforts were unavailing. I had previously seen something of the same constantly growing excitement in him when he had to make some request of which at the time he had thought much, such, for instance, as when he wanted a cat; and I was prepared to see the collapse into the same sullen acquiescence on this occasion. My expectation was not realised, for, when he found that his appeal would not be successful, he got into quite a frantic condition. He threw himself on his knees, and held up his hands, wringing them in plaintive supplication, and poured forth a torrent of entreaty, with the tears rolling down his cheeks, and his whole face and form expressive of the deepest emotion:--</p>
-
-                <p>Let me entreat you, Dr. Seward, oh, let me implore you, to let me out of this house at once. Send me away how you will and where you will; send keepers with me with whips and chains; let them take me in a strait-waistcoat, manacled and leg-ironed, even to a gaol; but let me go out of this. You don't know what you do by keeping me here. I am speaking from the depths of my heart--of my very soul. You don't know whom you wrong, or how; and I may not tell. Woe is me! I may not tell. By all you hold sacred--by all you hold dear--by your love that is lost--by your hope that lives--for the sake of the Almighty, take me out of this and save my soul from guilt! Can't you hear me, man? Can't you understand? Will you never learn? Don't you know that I am sane and earnest now; that I am no lunatic in a mad fit, but a sane man fighting for his soul? Oh, hear me! hear me! Let me go! let me go! let me go!"</p>
-
-                <p>I thought that the longer this went on the wilder he would get, and so would bring on a fit; so I took him by the hand and raised him up.</p>
-
-                <p>Come," I said sternly, "no more of this; we have had quite enough already. Get to your bed and try to behave more discreetly."</p>
-
-                <p>He suddenly stopped and looked at me intently for several moments. Then, without a word, he rose and moving over, sat down on the side of the bed. The collapse had come, as on former occasion, just as I had expected.</p>
-            </div>
-        </article>
         <!-- Blog Section -->
 
         <article id="lit">
@@ -138,16 +122,27 @@
             <div>
                 <p>By using image hover effects, you can produce results that are beautiful on any website with less effort. Image hover effects are widely used in web designing because you can implement them easily and it increases a sense of liveliness for the user experience. The use of Cascading Style Sheet (CSS) gives you plenty of ways to implement stylish effects.</p>
                 <p><br>This is how I inserted a hover effect to my image gallery. It transitions the content of each image to slide from the left and to zoom out.</p>
-                <p>The user can see that the image and the content is located under the class: img-wrapper. See the image below: </p>
+                <p>1)The user can see that the image and the content is located under the class: img-wrapper. See the image below: </p>
                 <img  src="IMG/image1.png" alt="code" height="200">
-                <p>Next, the user can see that I added the transitions, slide-left and zoom, in the class: content. See the image: </p>
+                <p>2) the user can see that I added the transitions, slide-left and zoom, in the class: content. See the image: </p>
                 <img src="IMG/image2.png" alt="code" height="200">
-                <p>Next, I went into the style.css file and created the element selector: .img-wrapper with brackets. Under the .img-wrapper selector, I added the properties, position and overflow. For the position property, I did relative. For the overflow property, I did hidden. See the image below: </p>
+                <p>3) I went into the style.css file and created the element selector: .img-wrapper with brackets. Under the .img-wrapper selector, I added the properties, position and overflow. For the position property, I did relative. For the overflow property, I did hidden. See the image below: </p>
                 <img src="IMG/image3.png" alt="code" height="90" width="200">
-                <p>Next, I added the element selector: .img-wrapper > img. Under that selector, I added the properties, display, width, aspect-ratio, padding, object-fit, object-position, and border. See the image below: </p>
+                <p>4) I added the element selector: .img-wrapper > img. Under that selector, I added the properties, display, width, aspect-ratio, padding, object-fit, object-position, and border. See the image below: </p>
                 <img src="IMG/image4.png" alt="code">
-                <p>Next, I added the element selector: .img-wrapper > .content. Under that selector, I added the properties, position, inset, font-size, color, padding, background, display, justify-content, and align items. Also, I added the selectors: .img-wrapper > img, .img-wrapper > .content and img-wrapper:hover > img.blur. Under them, I added the properties transition and filter.  You can see the image below: </p>
+                <p>5) I added the element selector: .img-wrapper > .content. Under that selector, I added the properties, position, inset, font-size, color, padding, background, display, justify-content, and align items. Also, I added the selectors: .img-wrapper > img, .img-wrapper > .content and img-wrapper:hover > img.blur. Under them, I added the properties transition and filter. See the image below: </p>
                 <img src="IMG/image5.png" alt="code">
+                <p>6) I added the element selectors: img-wrapper > .content.zoom, .img-wrapper:hover > .content.zoom, and .img-wrapper > .content.slide-left. See the image below: </p>
+                <img src="IMG/image6.png" alt="code">
+                <p>7) I added the element selectors: .img-wrapper:hover > .content.slide-left, .img-wrapper > .content.slide-right, .img-wrapper:hover > .content.slide-right. See the image below: </p>
+                <img src="IMG/image7.png" alt="code">
+                <p>To explain, translate X reorganizes an element horizontally on a 2D plane. On the contrary, translate Y reorganizes an element vertically on a 2D plane.</p>
+                <p>Lastly, I want to present to you, the four stages of the image hover effect:</p>
+                <img src="IMG/final-result-image-1.png" alt="final-result">
+                <img src="IMG/final-result-image-2.png" alt="final-result">
+                <img src="IMG/final-result-image-3.png" alt="final-result">
+                <img src="IMG/final-result-image-4.png" alt="final-result">
+                <p>Thank you for reading my Blog. Hope you liked it!!</p>
             </div>
         </article>
 
